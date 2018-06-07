@@ -4,3 +4,6 @@ The documentation say it's not possible to put a Lightning-based community in a 
 For iOS, one easy step: set `info.plist` key `SFDCOAuthLoginHost` to the Lightning community base url. Include `/s` in the URL path.
 
 Why would you want to do this? Simple: because it allows the majority of development to be handled inside the community. This effectively allows you to build once for multiple platforms, thus further extending the viability of a React Native-based approach.
+
+## Notes
+Part of this setup requires configuration in Salesforce. Specifically, on your community dashboard, ensure the login page is set to your community builder login page. This is found under `Administration > Login & Registration`.
